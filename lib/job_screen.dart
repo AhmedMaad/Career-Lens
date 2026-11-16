@@ -21,7 +21,7 @@ class const JobData(final String role, {super.key}) extends StatefulWidget {
 }
 
 class _JobScreenState extends State<JobData> {
-  var requirements = 'Requirements appear here';
+  var requirements = '';
   bool isLoading = true;
 
   Future<void> getData() async {
